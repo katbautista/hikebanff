@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+img {
+    max-width: 100%;
+}
+body {
+    font-style: normal;
+    font-family: "Consolas";
+    line-height: 1.5;
+}
+.header__image {
+    margin: 0 auto;
+    max-height: 20rem;
+    max-width: 80rem;
+    padding: 0 0 1rem;
+}
+.hiker-girl {
+    margin: 0 auto;
+    max-height: 20rem;
+    max-width: 80rem;
+    padding: 0 0 0rem;
+}
+.silhoutte {
+    margin: 0 auto;
+    max-height: 20rem;
+    max-width: 80rem;
+    padding: 0 0 0rem;
+}
+.page-one{
+    height: 105vh;
+    padding: 2rem 1rem 4rem;
+    background: #9BAFEB;
+    text-align: center;
+}
+.page-two{
+    height: 126vh;
+    padding: 2rem 1rem 4rem;
+    background: #EBCA78;
+    text-align: center;
+}
+.page-three{
+    height: 100vh;
+    padding: 2rem 1rem 4rem;
+    background: #EBB4A7;
+    text-align: center;
+}
+.nav {
+    padding:0;
+    list-style-type: none;
+}
+.nav__link {
+    color: #000000;
+    background: #9AF0D5;
+    padding: .5rem 2rem;
+    margin: 2rem auto 0;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px #c4c4c4;
+    align-self: flex-start;
+}
+.nav__link:hover {
+    text-decoration: underline;
+    box-shadow: 3px 3px 2px #d3d3d3;
+}
+.head {
+   font-family:"Didot", serif;
+   color: #B34F6D;
+}
